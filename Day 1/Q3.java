@@ -15,6 +15,10 @@ public class Q3{
                 maxDiff = nums[i] - min;
             }
         }
+
+        if(maxDiff < 0){
+            return -1;
+        }
         return maxDiff;
     }
 
