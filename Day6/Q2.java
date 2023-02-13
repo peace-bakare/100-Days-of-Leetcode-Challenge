@@ -1,8 +1,10 @@
 package Day6;
 
 /*
+
 Question 485 - Max Consecutive Ones
 Given a binary array nums, return the maximum number of consecutive 1's in the array.
+
  */
 public class Q2{
     public int findMaxConsecutiveOnes(int[] nums) {
