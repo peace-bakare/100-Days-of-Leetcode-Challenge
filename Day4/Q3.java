@@ -1,12 +1,16 @@
 package Day4;
 
+import java.util.Arrays;
+
 /*
-Question 268: Missing Number
+ * 
+ * Question 268: Missing Number
 
 Given an array nums containing n distinct numbers in the range [0, n], 
 return the only number in the range that is missing from the array.
+
  */
-public Q3{
+public class Q3{
     public int missingNumber(int[] nums) {
         Arrays.sort(nums);
         int n = nums.length;
@@ -22,7 +26,7 @@ public Q3{
     }
 
     public void Main(String[]args){
-        int nums = {3,0,1};
+        int [] nums = {3, 0, 1};
         System.out.println(missingNumber(nums));
     }
 }
