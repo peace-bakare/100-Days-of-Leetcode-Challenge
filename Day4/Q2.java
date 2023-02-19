@@ -16,7 +16,7 @@ You are given an API bool isBadVersion(version) which returns whether version is
 Implement a function to find the first bad version. You should minimize the number of calls to the API.
 
  */
-public Q2{
+public class Q2{
     public int firstBadVersion(int n) {
         int left = 0; int right = n;
 
