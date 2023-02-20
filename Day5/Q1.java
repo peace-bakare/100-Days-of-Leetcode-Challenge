@@ -1,5 +1,7 @@
 package Day5;
 
+import java.util.HashSet;
+
 /*
 1832. Check if the Sentence Is Pangram
 A pangram is a sentence where every letter of the English alphabet appears at least once.

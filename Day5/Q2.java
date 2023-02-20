@@ -1,5 +1,7 @@
 package Day5;
 
+import java.util.Arrays;
+
 /*
 169. Majority Element
 Given an array nums of size n, return the majority element.
