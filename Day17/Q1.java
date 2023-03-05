@@ -45,10 +45,6 @@ public class Q1 {
                 sum += value;
             }
         }
-
-        for(int i=0, j=0; i<s.length()-1; i++){
-
-        }
         return sum;
     }
 }
