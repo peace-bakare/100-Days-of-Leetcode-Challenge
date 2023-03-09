@@ -1,6 +1,7 @@
 package Day21;
 
 import java.util.HashMap;
+import java.util.HashSet;
 
 /*
  * Question 1207 - Unique Number of Occurrences
@@ -33,13 +34,6 @@ public class Q3 {
             map.put(a, b);
         }
 
-        int j = 1;
-        for(int i=0; i<map.size()-1; i++){
-            if(map.get(i) == map.get(j)){
-                return false;
-            }
-            j++;
-        }
-        return true;
+        return map.size() == new HashSet<Integer>(map.values()).size();
     }
 }
