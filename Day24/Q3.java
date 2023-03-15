@@ -19,8 +19,6 @@ Input: nums = [2,2,1,1,1,2,2]
 Output: 2
  */
 public class Q3 {
-    private static final String HashMap = null;
-
     public int majorityElement(int[] nums) {
         // HashMap<Integer, Integer> map = new HashMap<>();
         // int n = nums.length;
